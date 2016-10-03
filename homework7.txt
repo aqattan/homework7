@@ -1,0 +1,133 @@
+Q1:
+
+a= {17,24,4,26,19,30,2,66,40}
+Position= 0
+while position < a.length
+ if a{position} divided by 2 with remainder
+  then print a{position}
+ end if
+ increment postion by 1
+ end while
+
+Q2:
+
+a= {17,24,4,26,19,30,2,66,40}
+Position= 0
+min=9999999
+while position < a.length
+ if a{position} divided by 2 with remainder
+  then print a{position}
+     if a{position} < min
+     min=a{position}
+ end if
+ end if
+ increment postion by 1
+ end while
+ print min
+
+Q3:
+
+a= {17,24,4,26,19,30,2,66,40}
+Position= 0
+min=9999999
+while position < a.length
+ if isOdd {a{position}}
+  then print a{position}
+     if a{position} < min
+     min=a{position}
+ end if
+ end if
+ increment position by 1
+ end while
+ print min
+
+function isOdd{number} {
+ if number%2 >0
+ return true
+end if
+}
+
+Q4:
+
+a= {17,24,4,26,19,30,2,66,40}
+Position= 0
+minodd=999999
+mineven=999999
+while position < a.length
+ if isOdd {a{position}}
+  then print a{position}
+     if a{position} < minodd
+     minodd=a{position}
+ else
+    print {a{position}}
+     if a{position}< mineven
+       mineven=a{position}
+ end if
+ end if
+ increment position by 1
+ end while
+ print minodd
+ print mineven
+
+function isOdd{number} {
+ if number%2 >0
+ return true
+end if
+}
+
+Q5:
+
+ function isOdd(number) {
+ if (number%2 > 0)
+ return true;
+}
+var a= (17,24,4,26,19,30,2,66,40);
+var i= 0;
+var minodd=999999;
+var mineven=999999;
+while (i < a.length)
+{
+ if (isOdd (a(i)));
+  { print (a(i));
+     if (a(i) < minodd)
+     {minodd=a(i);
+  }
+ else
+    print (a(i));
+     if (a(i)< mineven)
+       {mineven=a(i);
+ }
+ }
+ i=i+1;
+}
+ console.log (minodd);
+ console.log (mineven);
+ 
+Q7:
+
+function iseven (number) {
+ if (number %2 =='0')
+ return true;
+else 
+return false;
+}
+
+function myfunction (a,b,c,d,e) {
+if (iseven (a)) 
+{ console.log ("Blue");
+}
+if (iseven (b) && c>5);
+ { console.log ("Green");
+}
+if (iseven (b) && c<5 && e%2 >0);
+	{console.log ("Yellow");
+	}
+if (iseven (a) && iseven (b) && c<0)
+	{console.log ("orange");
+	}
+}
+
+
+Q9:
+
+grep "function" index.html; wc -l index.html
